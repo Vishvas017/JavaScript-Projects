@@ -1,3 +1,4 @@
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9a9936bc-475f-4223-9a27-b7db58182469" />
 Weather App ⛅
 
 A simple and responsive Weather Application built using HTML, CSS, and JavaScript.
