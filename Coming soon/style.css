@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    color: White;
+    margin-left: 5%;
+    padding-top: 2%;
+    cursor: pointer;
+    font-size: 36px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.content p{
+    font-weight:lighter;
+    margin-bottom: 1%;
+    font-size: 22px;
+}
+.content h1
+{
+    font-size: 60px;
+}
+.content h1 span{
+    color: orangered;
+    border-bottom: orangered solid 4px;
+}
+.launch-time{
+    display: flex;
+    margin-top: 1%;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 60px;
+}
+button{
+    outline: none;
+    border: 1px solid#fff;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    justify-content: space-between;
+    margin-top: 2%;
+    cursor: pointer;
+}
+button img{
+    height: 16px;
+    margin: 7px;
+}
+.rocket{
+    width: 250px;
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    animation: rock 2s infinite;
+}
+@keyframes rock {
+    0%{
+        bottom: 0%;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+}
